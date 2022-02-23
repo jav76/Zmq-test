@@ -1,7 +1,23 @@
+*.o
+*.a
+*.pyc
+qmzTest
+
 # for projects that use SCons for building: http://http://www.scons.org/
 .sconsign.dblite
-*.o
-qmzTest
 # When configure fails, SCons outputs these
 config.log
 .sconf_temp
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
