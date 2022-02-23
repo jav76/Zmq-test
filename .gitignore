@@ -1,0 +1,7 @@
+# for projects that use SCons for building: http://http://www.scons.org/
+.sconsign.dblite
+*.o
+qmzTest
+# When configure fails, SCons outputs these
+config.log
+.sconf_temp
